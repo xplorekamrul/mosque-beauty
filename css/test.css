@@ -1,0 +1,44 @@
+/* common css start  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: my_font;
+    src: url(../my_fonts/Reey-Regular.otf);
+}
+
+/* common css end */
+h1{
+    font-family: "Paprika", sans-serif;
+
+}
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
+
+/* =====  part start ===== */
+/* =====  part end ===== */
