@@ -1,0 +1,30 @@
+  font-family: "Open Sans", serif;
+
+
+
+js function understands 
+
+ // updateTimer ফাংশনটি বর্তমান সময় সংগ্রহ করে এবং তা ঘন্টা, মিনিট এবং সেকেন্ড আকারে প্রদর্শন করে।
+        function updateTimer() {
+            const now = new Date(); // বর্তমান তারিখ এবং সময় সংগ্রহ করা হয়।
+            const hours = String(now.getHours()).padStart(2, '0'); // ঘন্টা সংগ্রহ করে এবং ২ সংখ্যা নিশ্চিত করার জন্য শূন্য যোগ করা হয়।
+            const minutes = String(now.getMinutes()).padStart(2, '0'); // মিনিট সংগ্রহ এবং ২ সংখ্যা নিশ্চিত।
+            const seconds = String(now.getSeconds()).padStart(2, '0'); // সেকেন্ড সংগ্রহ এবং ২ সংখ্যা নিশ্চিত।
+
+            /*
+            padStart(2, '0') এর কাজ হলো সংখ্যার দৈর্ঘ্য ২ নিশ্চিত করা।
+            যদি কোনো সংখ্যা ১ অঙ্কের হয় (যেমন ৫), তাহলে এর সামনে একটি শূন্য (0) যোগ করা হবে।
+            উদাহরণ:
+            - 5.padStart(2, '0') => "05"
+            - 12.padStart(2, '0') => "12"
+            */
+
+            // HTML-এ নির্ধারিত অংশগুলোর সময় সেট করা হয়।
+            document.getElementById('hours').textContent = hours;
+            document.getElementById('minutes').textContent = minutes;
+            document.getElementById('seconds').textContent = seconds;
+        }
+
+        // প্রতি ১ সেকেন্ড পর পর updateTimer ফাংশনটি চালানো হয়।
+        setInterval(updateTimer, 1000);
+        updateTimer(); // প্রথমে একবার ফাংশনটি চালানো হয় যেন সাথে সাথেই সময় প্রদর্শিত হয়।

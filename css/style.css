@@ -18,48 +18,51 @@ a {
     font-family: my_font;
     src: url(../my_fonts/Reey-Regular.otf);
 }
+
 .container {
     width: 1320px;
     margin: 0 auto;
 }
 
 /* common css end */
-h1{
-    font-family: "Paprika", sans-serif;
-
-}
-#header{
+#header {
     position: relative
 }
+
 /* ===== navbar part start ===== */
-.navbar{
-    background: rgb(0, 0, 0 ,0.5);
+.navbar {
+    background: rgb(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
-.logotxt{
+
+.logotxt {
     font-size: 30px;
     font-family: "Paprika", sans-serif;
     color: #fff;
     line-height: 70px;
     padding-left: 10px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: #01f82b !important;
     border: 1px solid #01f82b;
 }
+
 .navbar-collapse {
     flex-grow: 0;
 }
-.nav-item a{
+
+.nav-item a {
     color: white;
     font-size: 16px;
     font-family: "Open Sans";
@@ -68,11 +71,13 @@ h1{
     padding: 48px 20px !important;
     font-weight: 500;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: #01f82b;
     transition: 0.7s;
 }
-.navbtn{
+
+.navbtn {
     background: #01f82b;
     color: #000;
     padding: 8px 40px;
@@ -84,12 +89,14 @@ h1{
     line-height: 22px;
     margin-left: 20px;
 }
-.navbtn:hover{
+
+.navbtn:hover {
     background: #fff;
     transition: 0.7s;
     border: 1px solid #000;
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
     color: #fff;
     font-size: 20px;
     line-height: 20px;
@@ -97,20 +104,74 @@ h1{
     padding-top: 15px;
     cursor: pointer;
 }
+
 /* ===== navbar part end ===== */
 
 /* ===== hero part start ===== */
-#hero{
+#hero {
     background-image: url(../images/mosque\ \(15\).jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.heroverly{
-    background: rgb(0, 0, 0 ,0.5);
+
+.heroverly {
+    background: rgb(0, 0, 0, 0.5);
     width: 100%;
-    padding: 300px 0;
+    padding: 150px 0;
 }
+
+.herohead {
+    font-size: 54px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 0 120px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.herotxt {
+    font-size: 20px;
+    font-family: "Paprika", serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px 150px;
+    line-height: 30px;
+    text-align: center;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.date {
+    height: 115px;
+    width: 100px;
+    border: 1px solid #c7c4c4;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.571);
+}
+
+.times {
+    font-size: 50px;
+    font-family: "Open Sans", serif;
+    font-weight: 900;
+    color: #fff;
+    padding: 20px;
+}
+
+.timetxt {
+    font-size: 20px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* ===== hero part end ===== */
 
 /* =====  part start ===== */
