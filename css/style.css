@@ -29,15 +29,16 @@ h1{
 
 }
 #header{
-    background-image: url(../images/mosque\ \(8\).jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
+    position: relative
 }
 /* ===== navbar part start ===== */
 .navbar{
     background: rgb(0, 0, 0 ,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
 }
 .navbar-brand img{
     width: 70px;
@@ -50,6 +51,10 @@ h1{
     color: #fff;
     line-height: 70px;
     padding-left: 10px;
+}
+.navbar-toggler{
+    color: #01f82b !important;
+    border: 1px solid #01f82b;
 }
 .navbar-collapse {
     flex-grow: 0;
@@ -90,11 +95,23 @@ h1{
     line-height: 20px;
     padding-left: 20px;
     padding-top: 15px;
+    cursor: pointer;
 }
 /* ===== navbar part end ===== */
 
-/* =====  part start ===== */
-/* =====  part end ===== */
+/* ===== hero part start ===== */
+#hero{
+    background-image: url(../images/mosque\ \(15\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heroverly{
+    background: rgb(0, 0, 0 ,0.5);
+    width: 100%;
+    padding: 300px 0;
+}
+/* ===== hero part end ===== */
 
 /* =====  part start ===== */
 /* =====  part end ===== */
