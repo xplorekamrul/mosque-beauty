@@ -61,10 +61,12 @@ a {
     flex-grow: 0;
     margin-left: 150px;
 }
-.nav-item{
+
+.nav-item {
     height: 30px;
     margin-top: 20px;
 }
+
 .nav-item a {
     color: #fff;
     font-size: 16px;
@@ -144,12 +146,14 @@ a {
     line-height: 30px;
     text-align: center;
 }
+
 .timer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+
 .date {
     height: 115px;
     width: 100px;
@@ -178,29 +182,33 @@ a {
 /* ===== hero part end ===== */
 
 /* ===== about part start ===== */
-.aboutflex{
+.aboutflex {
     display: flex;
 }
-.aboutImage{
+
+.aboutImage {
     width: 50%;
 }
-.aboutImage img{
+
+.aboutImage img {
     width: 100%;
 }
-.aboutTxt{
+
+.aboutTxt {
     padding-left: 50px;
     padding-top: 127px;
     width: 50%;
 }
 
-.aboutHead{
+.aboutHead {
     font-size: 29px;
     font-family: "Open Sans", serif;
     font-weight: 700;
     color: #000;
     line-height: 32px;
 }
-.aboutDesc{
+
+.aboutDesc {
     font-size: 19px;
     font-family: "Open Sans", serif;
     font-weight: 400;
@@ -209,7 +217,8 @@ a {
     padding-right: 50px;
     padding-top: 20px;
 }
-.aboutSecDes{
+
+.aboutSecDes {
     font-size: 16px;
     font-family: "Open Sans", serif;
     font-weight: 400;
@@ -223,31 +232,35 @@ a {
 /* ===== about part end ===== */
 
 /* ===== infoaprt part start ===== */
-#InfoPart{
+#InfoPart {
     background: url(../images/InfoImage.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
-.infoPartoverly{
+
+.infoPartoverly {
     background: rgb(0, 0, 0, 0.7);
     width: 100%;
     padding: 150px 0;
 
 }
-.InfoTxt{
+
+.InfoTxt {
     text-align: center;
     color: #fff;
 }
-.infoHead{
+
+.infoHead {
     font-size: 29px;
     font-family: "Open Sans", serif;
     font-weight: 700;
     line-height: 36px;
     padding: 0 230px;
 }
-.infoDesc{
+
+.infoDesc {
     font-size: 19px;
     font-family: "Open Sans", serif;
     line-height: 25px;
@@ -255,6 +268,15 @@ a {
     padding-top: 20px;
     color: #ababab;
 }
+
+
+.card {
+    height: 210px;
+    width: 210px;
+    background: #e8e8e8;  
+    border-radius: 0;
+}
+
 /* ===== infoaprt part end ===== */
 
 /* =====  part start ===== */
