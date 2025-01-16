@@ -13,7 +13,9 @@ ol {
 a {
     text-decoration: none;
 }
-
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 0.8px;
+}
 @font-face {
     font-family: my_font;
     src: url(../my_fonts/Reey-Regular.otf);
@@ -177,8 +179,51 @@ a {
 
 /* ===== hero part end ===== */
 
-/* =====  part start ===== */
-/* =====  part end ===== */
+/* ===== about part start ===== */
+.aboutflex{
+    display: flex;
+}
+.aboutImage{
+    width: 50%;
+}
+.aboutImage img{
+    width: 100%;
+    height: 485px;
+}
+.aboutTxt{
+    padding-left: 50px;
+    padding-top: 127px;
+    width: 50%;
+}
+
+.aboutHead{
+    font-size: 29px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #000;
+    line-height: 32px;
+}
+.aboutDesc{
+    font-size: 19px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 21px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.aboutSecDes{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #000;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+
+}
+
+/* ===== about part end ===== */
 
 /* =====  part start ===== */
 /* =====  part end ===== */
