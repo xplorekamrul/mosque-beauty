@@ -31,6 +31,21 @@
     .herotxt {
         padding: 20px 10px;
     }
+
+    /* about secrion  */
+    .aboutflex {
+        flex-direction: row;
+    }
+
+    .aboutImage {
+        width: 100%;
+    }
+
+    .aboutTxt {
+        width: 100%;
+        padding-top: 30px;
+    }
+
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -62,7 +77,33 @@
     .herotxt {
         padding: 20px 10px;
     }
+
+    /* about secrion  */
+    .aboutflex {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        width: 100%;
+    }
+
+    .aboutTxt {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .aboutDesc {
+        padding-right: 20px;
+    }
+
+    .aboutSecDes {
+        padding-right: 20px;
+
+    }
+
 }
+
+/* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576.98px) {
     .container {
         width: 90%;
@@ -99,25 +140,48 @@
         line-height: 20px;
         text-align: center;
     }
-       
-.date {
-    height: 85px;
-    width: 70px;
 
-}
+    .date {
+        height: 85px;
+        width: 70px;
 
-.times {
-    font-size: 30px;
-    font-weight: 700;
-    padding-left: 10px;
-    text-align: center;
-}
+    }
 
-.timetxt {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-}
+    .times {
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .timetxt {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    /* about secrion  */
+    .aboutflex {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        width: 100%;
+    }
+
+    .aboutTxt {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .aboutDesc {
+        padding-right: 20px;
+    }
+
+    .aboutSecDes {
+        padding-right: 20px;
+
+    }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -158,23 +222,46 @@
         line-height: 20px;
         text-align: center;
     }
-    
-.date {
-    height: 65px;
-    width: 50px;
 
-}
+    .date {
+        height: 65px;
+        width: 50px;
 
-.times {
-    font-size: 24px;
-    font-weight: 700;
-    padding-left: 10px;
-    text-align: center;
-}
+    }
 
-.timetxt {
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-}
+    .times {
+        font-size: 24px;
+        font-weight: 700;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .timetxt {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    /* about secrion  */
+    .aboutflex {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        width: 100%;
+    }
+
+    .aboutTxt {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .aboutDesc {
+        padding-right: 20px;
+    }
+
+    .aboutSecDes {
+        padding-right: 20px;
+
+    }
 }
