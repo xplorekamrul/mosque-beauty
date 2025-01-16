@@ -241,7 +241,7 @@ a {
 }
 
 .infoPartoverly {
-    background: rgb(0, 0, 0, 0.7);
+    background: rgb(0, 0, 0, 0.5);
     width: 100%;
     padding: 150px 0;
 
@@ -270,11 +270,45 @@ a {
 }
 
 
+.infocards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 .card {
-    height: 210px;
-    width: 210px;
-    background: #e8e8e8;  
-    border-radius: 0;
+    height: 180px;
+    width: 180px;
+    background: #e8e8e8;
+    text-align: center;
+    color: black;
+
+}
+
+.card i {
+    font-size: 71px;
+    margin-top: 30px;
+}
+
+.card p {
+    font-size: 20px;
+    font-family: "Open Sans", serif;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 30px;
+    transition: .4s;
+}
+
+.card:hover {
+    background-color: #e4b855;
+    box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+}
+
+.card:hover i,
+.card:hover p {
+    color: #fff;
 }
 
 /* ===== infoaprt part end ===== */
