@@ -45,6 +45,16 @@
         width: 100%;
         padding-top: 30px;
     }
+    
+    /* infopart section  */
+
+    .infoHead {
+        padding: 0 50px;
+    }
+    
+    .infoDesc {
+        padding: 0 50px;
+    }
 
 }
 
@@ -99,6 +109,16 @@
     .aboutSecDes {
         padding-right: 20px;
 
+    }
+    
+    /* infopart section  */
+
+    .infoHead {
+        padding: 0 10px;
+    }
+    
+    .infoDesc {
+        padding: 0 10px;
     }
 
 }
@@ -182,6 +202,16 @@
         padding-right: 20px;
 
     }
+    
+    /* infopart section  */
+
+    .infoHead {
+        padding: 0 10px;
+    }
+    
+    .infoDesc {
+        padding: 0 10px;
+    }
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -263,5 +293,15 @@
     .aboutSecDes {
         padding-right: 20px;
 
+    }
+
+    /* infopart section  */
+
+    .infoHead {
+        padding: 0 10px;
+    }
+    
+    .infoDesc {
+        padding: 0 10px;
     }
 }
