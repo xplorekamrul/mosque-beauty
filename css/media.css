@@ -45,13 +45,13 @@
         width: 100%;
         padding-top: 30px;
     }
-    
+
     /* infopart section  */
 
     .infoHead {
         padding: 0 50px;
     }
-    
+
     .infoDesc {
         padding: 0 50px;
     }
@@ -105,20 +105,82 @@
     .aboutDesc {
         padding-right: 20px;
     }
-
     .aboutSecDes {
         padding-right: 20px;
+        margin-bottom: 50px;
 
     }
-    
+
     /* infopart section  */
+    .infoPartoverly {
+        padding: 80px 0;
+    }
 
     .infoHead {
         padding: 0 10px;
     }
-    
+
     .infoDesc {
         padding: 0 10px;
+    }
+
+    /* who part  */
+    .whoheader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .whoheader p {
+        padding: 0 20px;
+    }
+
+    .whoDesc {
+        flex-direction: column-reverse;
+    }
+
+    .whoDesRight {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .whoDesRight h3 {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .whoDesRight p {
+        padding-left: 0px;
+    }
+
+    .whoRightBtn {
+        margin-left: 0px;
+    }
+
+    .whoDesRight img {
+        margin-top: 20px;
+    }
+
+    /* left side  */
+    .whoDesLeft {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .whoDesLeft h3 {
+        margin-top: 50px;
+    }
+
+    .whoDesLeft p {
+        padding-right: 30px;
+    }
+
+    .whoDesLeft img {
+        margin-top: 50px;
+    }
+
+    /* counter part  */
+    .middlecounter {
+        top: 670px;
     }
 
 }
@@ -200,21 +262,84 @@
 
     .aboutSecDes {
         padding-right: 20px;
+        margin-bottom: 50px;
 
     }
-    
+
     /* infopart section  */
+    .infoPartoverly {
+        padding: 80px 0;
+    }
 
     .infoHead {
         padding: 0 10px;
     }
-    
+
     .infoDesc {
         padding: 0 10px;
     }
+
+    /* who part  */
+    .whoheader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .whoheader p {
+        padding: 0 20px;
+    }
+
+    .whoDesc {
+        flex-direction: column-reverse;
+    }
+
+    .whoDesRight {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .whoDesRight h3 {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .whoDesRight p {
+        padding-left: 0px;
+    }
+
+    .whoRightBtn {
+        margin-left: 0px;
+    }
+
+    .whoDesRight img {
+        margin-top: 20px;
+    }
+
+    /* left side  */
+    .whoDesLeft {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .whoDesLeft h3 {
+        margin-top: 50px;
+    }
+
+    .whoDesLeft p {
+        padding-right: 30px;
+    }
+
+    .whoDesLeft img {
+        margin-top: 50px;
+    }
+
+    /* counter part  */
+    .middlecounter {
+        top:775px;
+    }
 }
 
-/* // Extra small devices (portrait phones, less than 576px) */
+/* // Extra small devices (portrait phones, less than 400px) */
 @media (max-width: 400px) {
 
     .container {
@@ -292,16 +417,79 @@
 
     .aboutSecDes {
         padding-right: 20px;
+        margin-bottom: 50px;
 
     }
 
     /* infopart section  */
+    .infoPartoverly {
+        padding: 80px 0;
+    }
 
     .infoHead {
         padding: 0 10px;
     }
-    
+
     .infoDesc {
         padding: 0 10px;
+    }
+
+    /* who part  */
+    .whoheader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .whoheader p {
+        padding: 0 20px;
+    }
+
+    .whoDesc {
+        flex-direction: column-reverse;
+    }
+
+    .whoDesRight {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .whoDesRight h3 {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .whoDesRight p {
+        padding-left: 0px;
+    }
+
+    .whoRightBtn {
+        margin-left: 0px;
+    }
+
+    .whoDesRight img {
+        margin-top: 20px;
+    }
+
+    /* left side  */
+    .whoDesLeft {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .whoDesLeft h3 {
+        margin-top: 50px;
+    }
+
+    .whoDesLeft p {
+        padding-right: 30px;
+    }
+
+    .whoDesLeft img {
+        margin-top: 50px;
+    }
+
+    /* counter part  */
+    .middlecounter {
+        top: 775px;
     }
 }
