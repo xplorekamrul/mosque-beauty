@@ -339,6 +339,7 @@ a {
 /* who description start  */
 .whoDesc{
     display: flex;
+    position: relative;
 }
 .whoDesLeft{
     width: 50%;
@@ -401,7 +402,7 @@ a {
     font-family: "Open Sans", serif;
     font-weight: 700;
     line-height: 27px;
-    padding-top: 100px;
+    margin-top: 100px;
     padding-left: 65px;
 }
 .whoDesRight h3:hover {
@@ -439,6 +440,39 @@ a {
 .whoRightBtn i {
     font-size: 16px;
     color: #000;
+}
+.whoDesRight img{
+    width: 100%;
+    height: 400px;
+}
+
+
+/* counter part  */
+.middlecounter{
+    height: 188px;
+    width: 188px;
+    background: #faf8f8;
+    position: absolute;
+    left: 50%;
+    top: 270px;
+    transform: translateX(-50%);
+}
+.middleSqr{
+    height: 170px;
+    width: 170px;
+    background: #01f82b;
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.middleSqr h2{
+    font-size: 70px;
+    font-family: "Open Sans", serif;
+    font-weight: 500;  
+    margin-top:45px; 
+    margin-bottom: 0;
 }
 
 /* ===== who part end ===== */
