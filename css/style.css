@@ -475,8 +475,30 @@ a {
 
 /* ===== who part end ===== */
 
-/* =====  part start ===== */
-/* =====  part end ===== */
+/* ===== Kutbah part start ===== */
+.KutbahHeader {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.KutbahHeader h3 {
+    font-size: 30px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.KutbahHeader p {
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    font-weight: 500;
+    line-height: 22px;
+    color: #606060;
+    padding: 0 330px;
+    margin-top: 10px;
+}
+/* ===== Kutbah part end ===== */
 
 /* =====  part start ===== */
 /* =====  part end ===== */
