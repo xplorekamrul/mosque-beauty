@@ -105,6 +105,7 @@
     .aboutDesc {
         padding-right: 20px;
     }
+
     .aboutSecDes {
         padding-right: 20px;
         margin-bottom: 50px;
@@ -181,6 +182,17 @@
     /* counter part  */
     .middlecounter {
         top: 670px;
+    }
+
+    /* kutbah part  */
+
+    .KutbahHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .KutbahHeader p {
+        padding: 0 20px;
     }
 
 }
@@ -335,7 +347,18 @@
 
     /* counter part  */
     .middlecounter {
-        top:775px;
+        top: 775px;
+    }
+
+    /* kutbah part  */
+
+    .KutbahHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .KutbahHeader p {
+        padding: 0 20px;
     }
 }
 
@@ -491,5 +514,16 @@
     /* counter part  */
     .middlecounter {
         top: 775px;
+    }
+
+    /* kutbah part  */
+
+    .KutbahHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .KutbahHeader p {
+        padding: 0 20px;
     }
 }
