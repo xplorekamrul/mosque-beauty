@@ -524,7 +524,7 @@ a {
 
 .khutbahInf {
     display: flex;
-    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
 }
 
@@ -537,6 +537,7 @@ a {
     background-repeat: no-repeat;
     position: relative;
 }
+
 .kuthbahInfotwo {
     width: 49%;
     background: url(../images/specker\ 2.png);
