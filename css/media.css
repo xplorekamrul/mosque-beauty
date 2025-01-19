@@ -213,6 +213,10 @@
     .newsTop {
         flex-direction: column;
     }
+    .newsBottom {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
 
     .newTopImg {
         width: 100%;
@@ -405,6 +409,10 @@
     .newsTop {
         flex-direction: column;
     }
+    .newsBottom {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
 
     .newTopImg {
         width: 100%;
@@ -596,6 +604,10 @@
     
     .newsTop {
         flex-direction: column;
+    }
+    .newsBottom {
+        flex-direction: column-reverse;
+        margin: 50px 0;
     }
 
     .newTopImg {

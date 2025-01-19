@@ -325,6 +325,7 @@ a {
     line-height: 36px;
     margin-bottom: 0;
 }
+
 .whoheader p {
     font-size: 18px;
     font-family: "Open Sans", serif;
@@ -334,14 +335,17 @@ a {
     padding: 0 380px;
     margin-top: 10px;
 }
+
 /* who description start  */
-.whoDesc{
+.whoDesc {
     display: flex;
     position: relative;
 }
-.whoDesLeft{
+
+.whoDesLeft {
     width: 50%;
 }
+
 .whoDesLeft h3 {
     font-size: 25px;
     font-family: "Open Sans", serif;
@@ -349,9 +353,11 @@ a {
     line-height: 27px;
     margin-bottom: 0;
 }
+
 .whoDesLeft h3:hover {
-   color:#01f82b ;
+    color: #01f82b;
 }
+
 .whoDesLeft p {
     font-size: 16px;
     font-family: "Open Sans", serif;
@@ -361,9 +367,11 @@ a {
     margin-top: 20px;
     padding-right: 70px;
 }
-.whoLeftBtn{
+
+.whoLeftBtn {
     width: 100px;
 }
+
 .whoLeftBtn a {
     font-size: 16px;
     font-family: "Open Sans", serif;
@@ -372,29 +380,33 @@ a {
     color: #000;
     margin-top: 20px;
 }
-.whoLeftBtn:hover{
+
+.whoLeftBtn:hover {
     color: #01f82b;
 }
+
 .whoLeftBtn:hover a,
-.whoLeftBtn:hover i{
+.whoLeftBtn:hover i {
     color: #01f82b;
 }
+
 .whoLeftBtn i {
     font-size: 16px;
     color: #000;
 }
 
-.whoDesLeft img{
+.whoDesLeft img {
     width: 100%;
     height: 400px;
-    margin-top: 150px ;
+    margin-top: 150px;
 }
 
 /* right side  */
 
-.whoDesRight{
+.whoDesRight {
     width: 50%;
 }
+
 .whoDesRight h3 {
     font-size: 25px;
     font-family: "Open Sans", serif;
@@ -403,9 +415,11 @@ a {
     margin-top: 100px;
     padding-left: 65px;
 }
+
 .whoDesRight h3:hover {
-   color:#01f82b ;
+    color: #01f82b;
 }
+
 .whoDesRight p {
     font-size: 16px;
     font-family: "Open Sans", serif;
@@ -416,10 +430,12 @@ a {
     padding-right: 70px;
     padding-left: 65px;
 }
-.whoRightBtn{
+
+.whoRightBtn {
     width: 100px;
     margin-left: 65px;
 }
+
 .whoRightBtn a {
     font-size: 16px;
     font-family: "Open Sans", serif;
@@ -428,25 +444,29 @@ a {
     color: #000;
     margin-top: 20px;
 }
-.whoRightBtn:hover{
+
+.whoRightBtn:hover {
     color: #01f82b;
 }
+
 .whoRightBtn:hover a,
-.whoRightBtn:hover i{
+.whoRightBtn:hover i {
     color: #01f82b;
 }
+
 .whoRightBtn i {
     font-size: 16px;
     color: #000;
 }
-.whoDesRight img{
+
+.whoDesRight img {
     width: 100%;
     height: 400px;
 }
 
 
 /* counter part  */
-.middlecounter{
+.middlecounter {
     height: 188px;
     width: 188px;
     background: #faf8f8;
@@ -455,7 +475,8 @@ a {
     top: 270px;
     transform: translateX(-50%);
 }
-.middleSqr{
+
+.middleSqr {
     height: 170px;
     width: 170px;
     background: #01f82b;
@@ -465,11 +486,12 @@ a {
     transform: translateX(-50%);
     text-align: center;
 }
-.middleSqr h2{
+
+.middleSqr h2 {
     font-size: 70px;
     font-family: "Open Sans", serif;
-    font-weight: 500;  
-    margin-top:45px; 
+    font-weight: 500;
+    margin-top: 45px;
     margin-bottom: 0;
 }
 
@@ -489,6 +511,7 @@ a {
     line-height: 36px;
     margin-bottom: 0;
 }
+
 .KutbahHeader p {
     font-size: 18px;
     font-family: "Open Sans", serif;
@@ -499,7 +522,139 @@ a {
     margin-top: 10px;
 }
 
+.khutbahInf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.kuthbahInfoone {
+    width: 49%;
+    background: url(../images/speaker\ 1.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.kuthbahInfotwo {
+    width: 49%;
+    background: url(../images/specker\ 2.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.kuthbahRightInfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 275px;
+    left: 0;
+}
+
+.kuthbahRightInfo h3 {
+    font-size: 25px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.kuthbahRightInfo h3:hover {
+    color: #01f82b;
+}
+
+.kutbahDetails {
+    display: flex;
+    gap: 40px;
+}
+
+.kutbahSpeaker p {
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    line-height: 22px;
+    color: #a9a9a9;
+    display: inline;
+}
+
+.kutbahSpeaker span {
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    line-height: 22px;
+    color: #01f82b;
+    display: inline;
+}
+
+.kuthbahDate p {
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    line-height: 22px;
+    color: #a9a9a9;
+    display: inline;
+}
+
+.khutbahMedia {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.khutbahMedia i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.khutbahMedia i:hover {
+    color: #01f82b;
+}
+
+.kuthbahRightDesc {
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    font-weight: 500;
+    line-height: 22px;
+    color: #a9a9a9;
+    margin-top: 20px;
+    padding-right: 70px;
+
+}
+
+.kuthbahRightBtn {
+    width: 110px;
+}
+
+.kuthbahRightBtn a {
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.kuthbahRightBtn i {
+    color: white !important;
+}
+
+.kuthbahRightBtn:hover {
+    color: #01f82b;
+}
+
+.kuthbahRightBtn:hover a,
+.kuthbahRightBtn:hover i {
+    color: #01f82b !important;
+}
+
+.kuthbahRightBtn i {
+    font-size: 16px;
+    color: #000;
+}
 
 
 
@@ -523,6 +678,7 @@ a {
     line-height: 36px;
     margin-bottom: 0;
 }
+
 .newsHeader p {
     font-size: 18px;
     font-family: "Open Sans", serif;
@@ -532,56 +688,70 @@ a {
     padding: 0 330px;
     margin-top: 10px;
 }
-.newsTop{
+
+.newsTop {
     display: flex;
     flex-wrap: wrap;
 }
 
-.newTopImg{
+.newsBottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px 0;
+}
+
+.newTopImg {
     width: 50%;
 }
-.newTopImg img{
+
+.newTopImg img {
     width: 100%;
     height: 400px;
 }
 
-.newsRight{
+.newsRight {
     width: 50%;
 }
 
-.postDate{
+.postDate {
     display: flex;
     gap: 40px;
     margin-left: 30px;
     margin-top: 100px;
 }
-.newsDate i{
+
+.newsDate i {
     color: #01f82b;
 }
-.newsDate p{
+
+.newsDate p {
     font-size: 16px;
     font-family: "Open Sans", serif;
     line-height: 22px;
     color: #606060;
     display: inline;
 }
-.newsAdmin i{
+
+.newsAdmin i {
     color: #01f82b;
 }
-.newsAdmin p{
+
+.newsAdmin p {
     font-size: 16px;
     font-family: "Open Sans", serif;
     line-height: 22px;
     color: #606060;
     display: inline;
 }
-.newsAdmin span{
+
+.newsAdmin span {
     font-size: 16px;
     font-family: "Open Sans", serif;
     line-height: 22px;
     color: #01f82b;
     display: inline;
 }
+
 .newsRight h3 {
     font-size: 25px;
     font-family: "Open Sans", serif;
@@ -590,10 +760,12 @@ a {
     margin-top: 10px;
     padding-left: 30px;
 }
+
 .newsRight h3:hover {
-   color:#01f82b ;
+    color: #01f82b;
 }
-.newsRightDesc  {
+
+.newsRightDesc {
     font-size: 16px;
     font-family: "Open Sans", serif;
     font-weight: 500;
@@ -603,10 +775,12 @@ a {
     padding-right: 70px;
     padding-left: 30px;
 }
-.newsRightBtn{
+
+.newsRightBtn {
     width: 100px;
     margin-left: 30px;
 }
+
 .newsRightBtn a {
     font-size: 16px;
     font-family: "Open Sans", serif;
@@ -615,19 +789,22 @@ a {
     color: #000;
     margin-top: 20px;
 }
-.newsRightBtn:hover{
+
+.newsRightBtn:hover {
     color: #01f82b;
 }
+
 .newsRightBtn:hover a,
-.newsRightBtn:hover i{
+.newsRightBtn:hover i {
     color: #01f82b;
 }
+
 .newsRightBtn i {
     font-size: 16px;
     color: #000;
 }
 
-/* ===== Kutbah part endd ===== */
+/* ===== Latest part endd ===== */
 
 /* =====  part start ===== */
 /* =====  part end ===== */
