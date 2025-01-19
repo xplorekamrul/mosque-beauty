@@ -195,6 +195,18 @@
         padding: 0 20px;
     }
 
+    .newsTop {
+        flex-direction: column;
+    }
+
+    .newTopImg {
+        width: 100%;
+    }
+
+    .newsRight {
+        width: 100%;
+    }
+
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -359,6 +371,18 @@
 
     .KutbahHeader p {
         padding: 0 20px;
+    }
+
+    .newsTop {
+        flex-direction: column;
+    }
+
+    .newTopImg {
+        width: 100%;
+    }
+
+    .newsRight {
+        width: 100%;
     }
 }
 
@@ -526,4 +550,17 @@
     .KutbahHeader p {
         padding: 0 20px;
     }
+
+    .newsTop {
+        flex-direction: column;
+    }
+
+    .newTopImg {
+        width: 100%;
+    }
+
+    .newsRight {
+        width: 100%;
+    }
+
 }
